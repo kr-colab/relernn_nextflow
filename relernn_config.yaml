@@ -1,0 +1,9 @@
+vcf: "./examples/example.vcf.gz"
+genome_bed: "./examples/genome.bed"
+mask: "/gpfs/projects/kernlab/stittes/relernn_nextflow/examples/accessibility_mask.bed"
+window_size: 1000000
+chrom_list: [2L, X]
+mutation_rate: "1e-8"
+#upper ratio of theta to recombination rate for relernn 
+URTR: "1"
+outdir: "./pipeline_output/"

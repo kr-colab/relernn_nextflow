@@ -1,0 +1,6 @@
+.nextflow.log*
+.nextflow/
+slurm_logs/
+work/
+pipeline_output/
+examples/window*

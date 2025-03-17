@@ -1,0 +1,9 @@
+#conda yaml file
+name: nextflow
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - nextflow
+  - openjdk
