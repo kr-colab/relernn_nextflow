@@ -1,0 +1,14 @@
+name: etc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bcftools>=1.9
+  - bedtools
+  - samtools
+  - numpy
+  - polars
+  - ipykernel
+  - pip
+  - pip:
+    - lets-plot

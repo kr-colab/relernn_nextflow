@@ -1,0 +1,20 @@
+name: relernn
+channels:
+  - conda-forge
+  - anaconda
+  - bioconda
+dependencies:
+  - python 
+  - tensorflow
+  - tensorflow-gpu
+  - numpy==1.19.5
+  - gpustat
+  - pandas
+  - scikit-learn
+  - cudatoolkit
+  - cudnn
+  - pip
+  - pip:
+    - git+https://github.com/kr-colab/ReLERNN.git
+
+
